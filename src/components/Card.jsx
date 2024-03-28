@@ -5,7 +5,7 @@ import { BackgroundGradient } from "./ui/background-gradient";
 const Card = ({ data }) => {
   console.log(data);
   return (
-    <Link to={`/products/${data?.id}`} className="">
+    <Link to={`/products/${data?.id}`} className="px-4">
       <div>
         <BackgroundGradient className="rounded-[22px] max-w-sm p-4 sm:p-10 bg-secondary dark:bg-zinc-900">
           <img

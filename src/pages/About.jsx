@@ -7,8 +7,8 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <Layout>
-      <div className="rounded-lg bg-foreground lg:px-10  lg:mx-20 lg:my-8">
-        <LampContainer>
+      <div className="lg:rounded-lg bg-foreground px-4 py-8 lg:px-10  lg:mx-20 lg:my-8">
+        {/* <LampContainer>
           <motion.h1
             initial={{ opacity: 0.5, y: 100 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -21,8 +21,8 @@ const About = () => {
           >
             About Us
           </motion.h1>
-        </LampContainer>
-        <div className="flex flex-col md:flex-row md:items-center">
+        </LampContainer> */}
+        <div className="flex flex-col-reverse md:flex-row md:items-center">
           <div className="md:w-1/2 md:pr-8">
             <div className="mb-8 bg-background p-4 rounded-lg">
               <h3 className="text-xl text-primary font-bold mb-2">

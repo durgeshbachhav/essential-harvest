@@ -1,4 +1,5 @@
 import { Link, useNavigate } from "react-router-dom";
+import logo from "../assets/logo.svg";
 
 export const Signup = () => {
   let navigate = useNavigate();
@@ -6,7 +7,7 @@ export const Signup = () => {
     <main className="w-full h-screen flex flex-col items-center justify-center px-4">
       <div className="max-w-sm w-full text-gray-600">
         <div className="text-center">
-          <img src="../../public/logo.svg" width={150} className="mx-auto" />
+          <img src={logo} width={150} className="mx-auto" />
           <div className="mt-5 space-y-2">
             <h3 className="text-gray-800 text-2xl font-bold sm:text-3xl">
               Log in to your account

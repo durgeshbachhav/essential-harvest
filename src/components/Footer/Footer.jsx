@@ -20,7 +20,7 @@ const Footer = () => {
   ];
 
   return (
-    <footer className="text-gray-500 bg-green-200 py-5 pt-8 lg:px-20">
+    <footer className="text-gray-500 bg-green-200 py-5 px-4 pt-8 lg:px-20">
       <div className="max-w-lg sm:mx-auto sm:text-center">
         <img src="./logo.svg" className="w-32 sm:mx-auto" />
         <p className="leading-relaxed mt-2 text-[15px]">
