@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   const footerNavs = [
     {
@@ -32,9 +34,9 @@ const Footer = () => {
       <ul className="items-center justify-center mt-8 space-y-5 sm:flex sm:space-x-4 sm:space-y-0">
         {footerNavs.map((item, idx) => (
           <li key={idx} className=" hover:text-gray-800">
-            <a key={idx} href={item.href}>
+            <Link key={idx} to={item.href}>
               {item.name}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
