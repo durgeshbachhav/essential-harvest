@@ -1,7 +1,7 @@
 const Footer = () => {
   const footerNavs = [
     {
-      href: "/about",
+      href: "/about-us",
       name: "About",
     },
     {
