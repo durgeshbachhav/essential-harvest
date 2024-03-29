@@ -48,7 +48,7 @@ const Swiper = () => {
           <img src={eh1} alt="w-full mt-4 lg:mt-0" />
         </div>
       </section>
-      <section className="relative w-full section one rounded-lg border bg-secondary flex flex-col-reverse md:px-12  snap-always  lg:flex-row lg:px-20 my-4">
+      <section className="relative w-full section one rounded-lg border bg-secondary flex flex-col md:px-12  snap-always  lg:flex-row lg:px-20 my-4">
         <BackgroundBeams className={"absolute"} />
         <div className="lg:w-1/2 h-full">
           <img src={eh2} alt="" className="mt-4 lg:mt-0 lg:w-[70%]" />
